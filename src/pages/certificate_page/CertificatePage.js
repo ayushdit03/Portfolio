@@ -9,8 +9,8 @@ import nactar from "../../images/nactar.jpg";
 import cbta from "../../images/UC-ced27dc4-f236-4bd7-b1c1-d93fdff0f3e2.pdf";
 import skill from "../../images/skill.png";
 import webdev from "../../images/webdev.pdf";
-import iq from "../../images/IQ_Test.jpg";
-import computer from "../../images/Computer_knowledge.jpg";
+import iq from "../../images/sc.png";
+import computer from "../../images/sc.png";
 import aitools from "../../images/AI+MS.pdf";
 import Particle from "../../Particle";
 export default function CertificatePage() {

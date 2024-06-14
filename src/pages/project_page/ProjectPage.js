@@ -81,7 +81,7 @@ export default function ProjectPage() {
                                   }}
                                 >
                                   The New Year Countdown Project is more than
-                                  just a celebration; it's a testament to the
+                                  just a celebration; its a testament to the
                                   human spirit and our shared aspirations for a
                                   brighter future. So, mark your calendars and
                                   get ready to be part of this global
