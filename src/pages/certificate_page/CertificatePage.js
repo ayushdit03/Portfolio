@@ -5,12 +5,16 @@ import { Fade } from "react-reveal";
 import gfg from "../../images/gfg.png";
 import ay from "../../images/ay-py.png";
 import sc from "../../images/sc.png";
-import nactar from "../../images/nactar.jpg";
+import nactar from "../../images/web1.png";
+import ai from "../../images/sk1.png";
+import cpp1 from "../../images/cpp.pdf";
+import cpp from "../../images/cpp.png";
+import aiprimer from "../../images/aiprimer.pdf";
 import cbta from "../../images/UC-ced27dc4-f236-4bd7-b1c1-d93fdff0f3e2.pdf";
 import skill from "../../images/skill.png";
 import webdev from "../../images/webdev.pdf";
-import iq from "../../images/sc.png";
-import computer from "../../images/sc.png";
+import aws from "../../images/aws.png"
+import aws1 from "../../images/aws1.pdf";
 import aitools from "../../images/AI+MS.pdf";
 import Particle from "../../Particle";
 export default function CertificatePage() {
@@ -313,8 +317,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nactar}
-                                        alt={nactar}
+                                        src={ai}
+                                        alt={ai}
                                       />
                                     }
                                   </div>
@@ -353,7 +357,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-powerpoint-GV5i0zKW"
+                                  href={aiprimer}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -405,7 +409,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-windows-BR3rajeh"
+                                  href={cpp1}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -417,8 +421,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={skill}
-                                        alt={skill}
+                                        src={cpp}
+                                        alt={cpp}
                                       />
                                     }
                                   </div>
@@ -457,7 +461,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-excel-D96YgPpO"
+                                  href={aws1}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -469,8 +473,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={skill}
-                                        alt={skill}
+                                        src={aws}
+                                        alt={aws}
                                       />
                                     }
                                   </div>
