@@ -32,7 +32,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.facebook.com/mh.tonmoy.13"
+              href="https://www.facebook.com/ayush.poonmia"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
