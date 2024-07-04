@@ -77,7 +77,7 @@ export default function ComingSoon() {
                                                         </div>
                                                         <div className="cert-body">
                                                             <h2 className="cert-body-title" style={{ fontWeight: 700, color: "#fbd9ad" }}>
-                                                                Worked as a research project lead on collaboration with Dental Dpu college and Dpu IT college
+                                                                Worked as a lead on research peoject
                                                             </h2>
                                                             <h3 className="cert-body-subtitle" style={{ color: "#eb90ff", marginBottom: "0px" }}>
                                                                 - DPU
