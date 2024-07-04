@@ -40,10 +40,34 @@ function ProjectJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
+          icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Shoppy Ecommerce Website
+            Student Performance Analysis
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<CodeIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Book Recommendation System
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<CodeIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            ATS Resume Checker
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -55,7 +79,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Amazing Meal System
+            Mansionify
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -64,34 +88,10 @@ function ProjectJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
+          icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Academia Learning Website
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Personal Portfolio
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Online Payroll management System
+            Zomato Sales Analysis
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -103,79 +103,7 @@ function ProjectJourney() {
           icon={<HtmlIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            New Year CountDown
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CodeIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Heart Disease Prediction
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Dual Mode Calendar
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Dual Mode Calculator
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Digital Clock
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Age Calculator
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CodeIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Student Information Management System
+            Portfolio
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
