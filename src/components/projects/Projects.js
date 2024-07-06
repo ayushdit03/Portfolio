@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Zoom from "react-reveal/Zoom";
-import { Fade } from "react-reveal";
+import { Zoom, Fade } from "react-reveal";
 import nyc from "../../images/nyc.png";
 import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
@@ -38,12 +37,10 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Student Performance Analysis System 
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={nyc} alt="Student Performance Analysis System" />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/ayushdit03/ml-project"
-                        }
+                        href="https://github.com/ayushdit03/ml-project"
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -67,7 +64,6 @@ export default function Projects() {
                       }}
                     >
                       Created a machine learning model with a pipeline architecture to predict student performance based on demographic and educational variables, achieving high R-squared scores with Gradient Boosting. Utilized Python for data handling, training, and evaluation, identifying key performance factors.
-
                     </p>
                   </h6>
                   <div
@@ -79,7 +75,8 @@ export default function Projects() {
                     }}
                   >
                     <a href="https://ml-project-bil7.onrender.com">
-                                Machine Learning, Regression ,Data Science </a>
+                      Machine Learning, Regression, Data Science
+                    </a>
                   </div>
                 </div>
               </Fade>
@@ -98,12 +95,10 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Book Recommendation System
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={hd} alt="Book Recommendation System" />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/ayushdit03/AI_Book_Recommendation_Project"
-                        }
+                        href="https://github.com/ayushdit03/AI_Book_Recommendation_Project"
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -126,8 +121,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                    Built a Book Recommendation System using advanced algorithms, including Cosine Similarity, and integrated collaborative and content-based filtering to develop a hybrid recommendation model for personalized reading suggestions.
-
+                      Built a Book Recommendation System using advanced algorithms, including Cosine Similarity, and integrated collaborative and content-based filtering to develop a hybrid recommendation model for personalized reading suggestions.
                     </p>
                   </h6>
                   <div
@@ -138,8 +132,9 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    a href="https://ai-book-recommendation-system.onrender.com">
-                              Deep Learning, AI, Flask</a>
+                    <a href="https://ai-book-recommendation-system.onrender.com">
+                      Deep Learning, AI, Flask
+                    </a>
                   </div>
                 </div>
               </Fade>
@@ -158,12 +153,10 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       ATS Resume Checker
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={ci} alt="ATS Resume Checker" />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/ayushdit03/ATS-tracker-Project"
-                        }
+                        href="https://github.com/ayushdit03/ATS-tracker-Project"
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -186,8 +179,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                    Implemented an ATS resume tracking system using the Gemini Pro API and Streamlit, analyzing uploaded resumes to match them with job descriptions, providing a percentage match score, and highlighting missing keywords for resume optimization.
-
+                      Implemented an ATS resume tracking system using the Gemini Pro API and Streamlit, analyzing uploaded resumes to match them with job descriptions, providing a percentage match score, and highlighting missing keywords for resume optimization.
                     </p>
                   </h6>
                   <div
@@ -199,12 +191,13 @@ export default function Projects() {
                     }}
                   >
                     <a href="https://ats-tracker-project.onrender.com/">
-                              LLM, ML, Streamli, GenAI </a>
+                      LLM, ML, Streamlit, GenAI
+                    </a>
                   </div>
                 </div>
               </Fade>
             </Col>
-         <Col md={3}>
+            <Col md={3}>
               <Fade bottom>
                 <div
                   key={1}
@@ -218,12 +211,10 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Mansionify
                     </h5>
-                    <img src={eco} alt={eco} />
+                    <img src={pp} alt="Mansionify" />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/ayushdit03/property"
-                        }
+                        href="https://github.com/ayushdit03/property"
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -246,7 +237,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                                               Built a property trading website with Aadhaar-based user authentication and OTP confirmation. Enabled seamless property listing and deletion, and added admin verification for credibility, marked by a visible tick. Prioritized security and user-friendly functionality.
+                      Built a property trading website with Aadhaar-based user authentication and OTP confirmation. Enabled seamless property listing and deletion, and added admin verification for credibility, marked by a visible tick. Prioritized security and user-friendly functionality.
                     </p>
                   </h6>
                   <div
@@ -258,7 +249,8 @@ export default function Projects() {
                     }}
                   >
                     <a href="https://property2-wh04.onrender.com/home#">
-                              HTML, CSS, JavaScript, API</a>
+                      HTML, CSS, JavaScript, API
+                    </a>
                   </div>
                 </div>
               </Fade>
