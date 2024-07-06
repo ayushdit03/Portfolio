@@ -24,7 +24,7 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <Fade bottom>
                 <div
                   key={1}
@@ -84,7 +84,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <Fade bottom>
                 <div
                   key={1}
@@ -144,7 +144,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <Fade bottom>
                 <div
                   key={1}
@@ -200,6 +200,65 @@ export default function Projects() {
                   >
                     <a href="https://ats-tracker-project.onrender.com/">
                               LLM, ML, Streamli, GenAI </a>
+                  </div>
+                </div>
+              </Fade>
+            </Col>
+         <Col md={3}>
+              <Fade bottom>
+                <div
+                  key={1}
+                  className="singleProject"
+                  style={{
+                    backgroundColor: "rgb(142 70 186 / 31%)",
+                    border: "1px solid",
+                  }}
+                >
+                  <div className="projectContent">
+                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                      Mansionify
+                    </h5>
+                    <img src={eco} alt={eco} />
+                    <div className="project--showcaseBtn">
+                      <a
+                        href={
+                          "https://github.com/ayushdit03/property"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`code`}
+                      >
+                        <FaCode
+                          id={`code`}
+                          className={"icon"}
+                          aria-label="Code"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <h6>
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "#fbd9ad",
+                        color: "#b061df",
+                        fontWeight: 600,
+                      }}
+                    >
+                                               Built a property trading website with Aadhaar-based user authentication and OTP confirmation. Enabled seamless property listing and deletion, and added admin verification for credibility, marked by a visible tick. Prioritized security and user-friendly functionality.
+                    </p>
+                  </h6>
+                  <div
+                    className="project--lang"
+                    style={{
+                      background: "#fbd9ad",
+                      color: "#b061df",
+                      fontWeight: 600,
+                    }}
+                  >
+                    <a href="https://property2-wh04.onrender.com/home#">
+                              HTML, CSS, JavaScript, API</a>
                   </div>
                 </div>
               </Fade>
