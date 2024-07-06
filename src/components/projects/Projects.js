@@ -211,7 +211,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Mansionify
                     </h5>
-                    <img src={pp} alt="Mansionify" />
+                    <img src={eco} alt="Mansionify" />
                     <div className="project--showcaseBtn">
                       <a
                         href="https://github.com/ayushdit03/property"
