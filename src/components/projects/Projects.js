@@ -24,7 +24,7 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -36,13 +36,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      Student Performance Analysis System 
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://github.com/ayushdit03/ml-project"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +66,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      Created a machine learning model with a pipeline architecture to predict student performance based on demographic and educational variables, achieving high R-squared scores with Gradient Boosting. Utilized Python for data handling, training, and evaluation, identifying key performance factors.
+
                     </p>
                   </h6>
                   <div
@@ -82,12 +78,13 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    <a href="https://ml-project-bil7.onrender.com">
+                                Machine Learning, Regression ,Data Science </a>
                   </div>
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -99,13 +96,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      Book Recommendation System
                     </h5>
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://github.com/ayushdit03/AI_Book_Recommendation_Project"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -129,11 +126,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                    Built a Book Recommendation System using advanced algorithms, including Cosine Similarity, and integrated collaborative and content-based filtering to develop a hybrid recommendation model for personalized reading suggestions.
+
                     </p>
                   </h6>
                   <div
@@ -144,12 +138,13 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    a href="https://ai-book-recommendation-system.onrender.com">
+                              Deep Learning, AI, Flask</a>
                   </div>
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -161,13 +156,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      ATS Resume Checker
                     </h5>
                     <img src={ci} alt={ci} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://github.com/ayushdit03/ATS-tracker-Project"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -191,11 +186,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                    Implemented an ATS resume tracking system using the Gemini Pro API and Streamlit, analyzing uploaded resumes to match them with job descriptions, providing a percentage match score, and highlighting missing keywords for resume optimization.
+
                     </p>
                   </h6>
                   <div
@@ -206,67 +198,8 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, SCSS, React, JavaScript
+                    <a href="https://ats-tracker-project.onrender.com/">
+                              LLM, ML, Streamli, GenAI </a>
                   </div>
                 </div>
               </Fade>
