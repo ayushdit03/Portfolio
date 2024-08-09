@@ -16,6 +16,9 @@ import webdev from "../../images/webdev.pdf";
 import aws from "../../images/aws.png"
 import aws1 from "../../images/aws1.pdf";
 import aitools from "../../images/AI+MS.pdf";
+import isro from "../../images/isro.jpeg";
+import javak from "../../images/javak.png";
+import accenture from "../../images/accenture.png";
 import Particle from "../../Particle";
 export default function CertificatePage() {
   return (
@@ -23,7 +26,188 @@ export default function CertificatePage() {
       <Container fluid id="home">
         <Particle />
         <Container className="home-content">
-          <div
+        <div
+            className="d-flex justify-content-center"
+            width="100%"
+            style={{ backgroundColor: "#fbd9ad" }}
+          >
+            <Zoom left cascade>
+              <h1 style={{ color: "rgb(134 61 176" }}>Internship Certificates</h1>
+            </Zoom>
+          </div>
+          <div>
+            <div>
+              <Container fluid className="certificate-section" id="about">
+                <Container>
+                  <Row>
+                    <Col md={12} className="mt-5">
+                      <Row className="g-5">
+                        <Col md={4} className="col-sm-12 col-md4">
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://isronrscapprovalletter.tiiny.site/"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={isro}
+                                        alt={isro}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Approval Letter
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                ISRO(Indian Space Research Organization) -NRSC
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                - Project Intern
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                href="https://accenturecertificateayushjain.tiiny.site"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={accenture}
+                                        alt={accenture}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                Accenture North America Data Analytics and Visualization
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                - Data Analyst
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://javak-internship-ayushjain.tiiny.site/"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={javak}
+                                        alt={javak}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                Javak Microcircuit Private Limited
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                - Data Analyst 
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        
+                        
+                      </Row>
+                    </Col>
+                  </Row>
+                </Container>
+              </Container>
+            </div>
+          </div> 
+        <div
             className="d-flex justify-content-center"
             width="100%"
             style={{ backgroundColor: "#fbd9ad" }}
